@@ -1,0 +1,62 @@
+#header-title{
+  font-size: 40px;
+  color:  #007bff;
+  font-family: Garamond, sans-serif;
+}
+#conversion-type{
+  
+}
+select{
+  width: auto !important;
+}
+#path-input{
+  width: 450px;
+  
+}
+#convert-button{
+  width: 50px;
+  height: 50px;
+}
+#area {
+  height: 100%;
+  width: 640px;
+  top: 0;
+  left: 160px;
+  position: fixed;
+  background-color: white;
+  border-color: white;
+  text-align: center;
+  justify-content: center;
+  
+}
+
+.sidebar {
+  text-align: center;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  /*z-index: 1;*/
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: block;
+}
+
+.sidebar a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar img {
+  width: 100px;
+  height: 100px;
+}

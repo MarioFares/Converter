@@ -1,0 +1,31 @@
+media-converter npm Package
+
+Images
+-jpg
+-jpeg
+-png
+-gif
+-svg
+-webp
+-ico
+
+Videos
+No Real List Available
+
+convertapi > Node
+
+Area Files Loaded Shosw all files 
+drag n drop format
+
+Must fix dialogs to show type specific files
+Bottom-bar for options
+
+Input
+Open File
+Open Folder
+Delete
+
+Output
+Open File
+Open Folder
+Delete

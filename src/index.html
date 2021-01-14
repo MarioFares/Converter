@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Converter</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="./index.css">
+    <script defer src="algo.js"></script>
+</head>
+
+<body>
+<div class="sidebar">
+    <a onclick="loadHome()" href="#home"><img data-toggle="tooltip" title="Home" src="./icons/home_icon.png"
+                                    alt="Home"></a>
+    <a onclick="load('img');" href="#img"><img src="./icons/image_icon.png" title="Convert Images"
+                                               alt="Images"></a>
+    <a onclick="load('vid');" href="#vid"><img src="./icons/video_icon.png" title="Convert Videos"
+                                               alt="Videos"></a>
+    <a onclick="load('aud');" href="#aud"><img src="./icons/audio_icon.png" title="Convert Audio" alt=""></a>
+    <a onclick="load('ebook');" href="#ebooks"><img src="./icons/books_icon.png" title="Convert Ebooks"
+                                                    alt="Books"></a>
+    <a onclick="load('doc');" href="#doc"><img src="./icons/docs-icon.png" title="Convert Documents"
+                                               alt="Documents"></a>
+
+</div>
+<div id="area">
+    <br>
+    <h1 id="header-title">Convert</h1>
+    <br>
+    <select required title="Select an option." name="options" id="conversion-type" class="mx-auto form-control">
+        <option value="null" selected>Choose</option>
+        <option value="img">Image</option>
+        <option value="vid">Video</option>
+        <option value="aud">Audio</option>
+        <option value="doc">Document</option>
+        <option value="ebook">Ebooks</option>
+    </select>
+    <br><br>
+    <input id="path-input" placeholder="File path here..." class="form-control mx-auto" type="text">
+    <br><br>
+    <div>
+        <button id="file-path-button" class="btn btn-primary">Select File</button>
+        <button id="folder-path-button" class="btn btn-primary">Select Folder</button>
+    </div>
+    <br>
+    <!--            <label for="input-format">Input: </label>-->
+    <!--            <select style="width: 75px;" name="input" id="input-format"></select>-->
+    <br>
+    <label for="output-format">Output: </label>
+    <select style="width: 75px;" name="output" id="output-format" class="mx-auto form-control"></select>
+    <br>
+    <img id="convert-button" src="./icons/convert.png" title="Convert" alt="">
+    <br>
+</div>
+</body>
+</html>
